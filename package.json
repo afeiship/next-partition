@@ -1,6 +1,6 @@
 {
   "name": "next-partition",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Creates an array of elements split into two groups.",
   "homepage": "https://github.com/afeiship/next-partition",
   "author": {
