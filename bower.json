@@ -1,6 +1,7 @@
 {
   "name": "next-partition",
-  "description": "Creates an array of elements split into two groups.",
+  "version": "0.0.1",
+  "description": "Creates an array of elements split into two groups",
   "main": "dist/next-partition.js",
   "authors": [
     "afei"
@@ -19,6 +20,7 @@
     "bower_components",
     "test",
     "tests",
+    "build",
     "src",
     "gulp",
     "gulpfile.js"

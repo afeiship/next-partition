@@ -1,16 +1,15 @@
-var assert = require('assert');
 var nx = require('next-js-core2');
 require('../src/next-partition');
 
-describe('next/partition', function () {
 
-  it('nx.mix', function () {
-    var rs = nx.partition([1, 2, 3], function(_, n) {
-      return n % 2;
-    });
+test('nx.partition', function () {
+  var obj1 = {name: 'fei'};
+  var obj2 = {email: '1290657123@qq.com'};
 
-    assert.deepEqual( rs[0], [ 1, 3 ] );
-    assert.deepEqual( rs[1], [ 2 ] );
-  });
+  var result = {};
 
+  nx.partition(result, obj1, obj2);
+
+  expect(result.name, obj1.name).toBe(null);
 });
+

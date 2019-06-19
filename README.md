@@ -1,16 +1,21 @@
 # next-partition
-> Creates an array of elements split into two groups.
 
+## installation
+```bash
+npm install -S afeiship/next-partition --registry=https://registry.npm.taobao.org
+```
 
-## usage:
+## usage
 ```js
-  var rs = nx.partition([1, 2, 3], function(_, n) {
-    return n % 2;
-  });
-  
-  //result:
-  [
-    [1,3],
-    [2]
-  ]
+import 'next-partition';
+
+const rs = nx.partition([1, 2, 3], function(_, n) {
+  return n % 2;
+});
+
+//result:
+[
+  [1,3],
+  [2]
+]
 ```
