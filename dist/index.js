@@ -3,7 +3,7 @@
  * description: Creates an array of elements split into two groups.
  * homepage: https://github.com/afeiship/next-partition
  * version: 1.0.0
- * date: 2021-03-18 13:34:47
+ * date: 2021-03-18 13:35:33
  * license: MIT
  */
 
